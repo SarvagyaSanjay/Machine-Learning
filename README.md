@@ -14,6 +14,15 @@ It aims to support **producers, investors, and marketing teams** in making infor
 - 📈 Evaluate models using **Accuracy, Precision, Recall, and F1-Score**.
 
 ---
+## 🔄 Methodology  
+
+```mermaid
+graph TD;
+    A[Data Collection] --> B[Data Preprocessing];
+    B --> C[Train-Test Split 80-20];
+    C --> D[Model Training];
+    D --> E[Model Evaluation];
+    E --> F[Model Comparison];
 
 ## 🔄 Workflow  
 
@@ -71,10 +80,4 @@ By using **both numerical and categorical features**, our model captures deeper 
 
 ---
 
-## 📸 Example Output Chart  
 
-```mermaid
-pie title Model Accuracy Comparison
-    "Random Forest" : 88
-    "Gradient Boosting" : 85
-    "SVM" : 79
