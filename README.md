@@ -15,6 +15,19 @@ It aims to support **producers, investors, and marketing teams** in making infor
 
 ---
 
+## 🔄 Methodology  
+
+```mermaid
+graph TD;
+    A[Data Collection] --> B[Data Preprocessing];
+    B --> C[Train-Test Split 80-20];
+    C --> D[Model Training];
+    D --> E[Model Evaluation];
+    E --> F[Model Comparison];
+```
+
+---
+
 ## 🔄 Workflow  
 
 ### **Data Collection** 📥  
